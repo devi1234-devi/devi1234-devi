@@ -1,0 +1,69 @@
+from tkinter import*
+root = Tk()
+def send():
+        send = "you:"+ (e.get())
+        a = e.get().upper()
+        text.insert(END,"\n" + send)
+        if (a=='HI'):
+            text.insert(END, "\n" + "puffy: HELLO")
+        elif(a=="HELLO"):
+            text.insert(END, "\n" + "puffy: HAI")
+        elif(a=="HOW ARE YOU?"):
+            text.insert(END, "\n" + "puffy: I'M FINE AND YOU?")
+        elif(a=="I'M FINE TOO"):
+            text.insert(END, "\n" + "puffy: NICE TO HEAR THAT.HOW CAN I HELP YOU?")
+        elif(a=="MAY I KNOW ABOUT VEDHA UNIVERSITY"):
+            text.insert(END, "\n" + "puffy: VEDHA UNIVERSITY IS A PUBLIC UNIVERSITY LOCATED IN VISHAKAPATANAM,ANDHRA PRADESH,INDIA.IT WAS ESTABLISHED IN 1926" )
+            text.insert(END, "\n" + ": DO U WANT TO KNOW MORE")
+        elif(a=="YES"):
+            text.insert(END, "\n" + "puffy: THE UNIVERSITY IS ACCEPTED AS A TEACHING-CUM-AFFILIATING AND RESIDENTIAL UNIVERSITY IN INDIA. IT MAINLY OFFERS POSTGRADUATE TEACHING AND RESREACH EDUCATION TOO IT'S STUDENTS.VEDHA UNIVERISTY AS 5 CONSTITUENT COLLEGES AND OFFERS 313 COURSES AT POST GRADUATE.DIMPLOMA AND UNDER GRADUATE LEVELS IN IN THE FILEDS OF SCIENCE,EGINEERING,ARTS,COMMERCE,PHARMACY,LAW AND EDUCATION.")
+            text.insert(END, "\n" + "puffy: VEDHA UNIVERSITY HAS A SCHOOL OF DISTANCE EDUCATION THAT OFFERS UNDER GRADUATE,POST GRADUATE AND PROFESSIONAL COURSES. THE UNIVERSITY IS ACCREDITED BY THE NAAC WITH A GRADE,AND IS RECOGNISED BY THE UGC TO AWARD DEGREES TO EACH STUDENTS. THE UNIVESIRTY IS RANKED 24 AND 48 BY NAIRF 2021 IN THE UNIVERSITY AND OVERAL CATEGORIES,RESPECTLY. ")
+            text.insert(END, "\n" + "puffy: THE UNIVERSITY HAS A TEAM OF MORE THAN 700 PROFESSORS,ASSOCIATE AND ASIISTANT PROFESSORS. FUTHER,VEDHA UNIVERSITY CONDUTS NATIONAL AND INTERNATIONAL EVENTS FROM TIME TO TIME. VEDHA UNIVERSITY IMMPLEMTED QUALITY MANGEMENT SYSTEM AND BECOME THE FIRST GENARL UNIVERSITY IN INDIA TO GET THE THE ISO 9001:2000 CERTIFACATION. ")
+            text.insert(END, "\n" + "puffy: ADMISSIONS AND ADMISSION CHANCES")
+            text.insert(END, "\n" + "puffy: FEE STUCTURE")
+            text.insert(END, "\n" + "Puffy: REVIEWS")
+            text.insert(END, "\n" + "puffy: placements")
+            text.insert(END, "\n" + "Puffy: CUT OFF")
+            text.insert(END, "\n" + "puffy: FACILITY")
+            text.insert(END, "\n" + "puffy: SIMILAR INSTITUTES")ff
+            text.insert(END, "\n" + "puffy: EXAMS ACCEPTED")
+            text.insert(END, "\n" + "puffy: CONTACT DETAILS")
+        elif(a=="ADMISSIONS AND ADMISSIONS CHANCES" ):
+            text.insert(END, "\n" + "puffy: 24 YEARS OF EDUCATIONAL ESTABLISHMENT.113.03 ACRES ECO-FRIENDLY CAMPUS. 24 HOURS POWER BACKUP,WIFI AND SECURITY.300+FACULTIES,HIGHLY QUALIFIED,EXPERIENCED AND DEDICATED FACULTY MEMBERS.")
+        elif(a=="FEE STRUCTURE"):
+            text.insert(END, "\n" + "puffy: integarted B.Tech + M.Tech and FEE STRUCTURE FOR PER ANUM")
+            text.insert(END, "\n" + "puffy: CSE -- RS 2L-3.12L")
+            text.insert(END, "\n" + "puffy: ECE -- RS ")
+            text.insert(END, "\n" + "puffy: MECHANICAL --  RS ")
+            text.insert(END, "\n" + "puffy: civil -- RS")
+        elif(a=="REVIEWS"):
+            text.insert(END, "\n" + "puffy: VEDHA UNIVERSITY IS THE EVER MBA COLLEGE IN INDIA TO TOP UNIVERSITY IN THE STATE ANDHARA PRADESH STREAM.CERTIFACTION VALUES IN OVEARSAS. THIS THE MANGIFICATION ACADEMY WITH EXCELLENT TEACHERS,CLASSROOMS,SMALL GROUPS OF STUDENTS,SUPER FRNDLY AND HELPFUL STAFF")
+            text.insert(END, "\n" + "puffy: 3.5/5 star rating and 8.6/10 star rating")
+        elif(a=="PLACEMENTS"):
+            text.insert(END, "\n" + "puffy: THE TRANING AND PLACEMENT CELL IS RESPONSABLE FOR SECURING JOB OPPORTUNITES FOR STUDENTS ,TOP COMPINES SUCH AS TECH MAHINDRA , WIPRO , MICROSOFT VIST TO THE CAMPUS TO RECRUIT STUDENTS.JOB ROLES OFFERED AS TRANSFERED ,DEVLOVEPER AND SERVICE ENGINEER. THE STUDENT GET SEREVAL INTERSHIP OPPORTUNTIES,COMPANIES.")
+        elif(a=="CUTOFF"):
+            text.insert(END, "\n" + "puffy: VEDHA UNIVERSITY CUTOFF 2021: THE UNIVERSITY 2021 FACE 2 SEAT ALLOTMENT STATUS IS REALSED CANDIDATES MUST VISIT OFFICAL WEBSITE OF VEDHA UNIVERSITY TO CHECK THE STATUS AND MAKE THE ONLINE FEE PAYMENTS. FACE 2 PROVISIONA SEAT ALLOTMENT LIST WILL RELEASE SOON")
+        elif(a=="FACILITY"):
+            text.insert(END, "\n" + "puffy: 100% RAGING FREE ENIVORMENT.  24 YEARS OS EDUCATION ESTABLISHMENT.  300+ MEMBERS FACUTIES HIGHLY QUALIFIED, EXPERIENCED AND DEDICATED FACULTY MEMBERS.  24HRS POWER BACKUP.  FULL SECURIED")
+        elif(a=="SIMILAR INSTITUTIONS"):
+            text.insert(END, "\n" + "puffy: SRI UNIVERSITY,ANNAKAPALLI")
+            text.insert(END, "\n" + "puffy: SAHITHI UNIVERSITY,EAST GODAVARI")
+            text.insert(END, "\n" + "puffy: TRIPURA UNIVERSITY,KRSHINA")
+            text.insert(END, "\n" + "puffy: KARTHIKEYA UNIVERSITY,VIJYAWADA")
+            text.insert(END, "\n" + "puffy: KAKINADA INSTITUE OF ENGINEERING AND TECHNOLOGY,KORANGI")
+        elif(a=="EXAMS ACCEPETED"):
+            text.insert(END, "\n" + "puffy: ENGINEERING SET EXAM AFTER INTER OR IIT MAINS OR IIIT ")
+        elif(a=="CONTACT DETAILS"):
+            text.insert(END, "\n" + "puffy: CHAIRMAN MAN : MOHAMAD IDIRS , CONTACT NUMBER:9632587419 ")
+            text.insert(END, "\n" + "puffy: principle : DHARANI , CONTACT NUMBER:8529637418")
+            text.insert(END, "\n" + "puffy: COLEGE CONTACT NO:987654218")
+            
+        else:
+            text.insert(END, "\n" + "puffy: SORRY I DIDNT GET IT.")
+text=Text ( root, bg='WHITE', fg='black')
+text.grid(row=0,column=0,columnspan=4)
+e=Entry(root,width=100)
+send=Button(root,text='send',bg='lightgreen', fg='darkblue',width=20,command=send).grid(row=1,column=1)
+e.grid(row=1,column=0)
+root.title('NAVI.COM')
+root.mainloop()
